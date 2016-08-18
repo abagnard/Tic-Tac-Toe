@@ -1,0 +1,68 @@
+.ttt {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  width: 340px;
+  margin: 0 auto;
+}
+
+li {
+  height: 100px;
+  width: 100px;
+  background: gray;
+  border: 1px solid black;
+  float: left;
+}
+
+h3 {
+  text-align: center;
+  text-size: 36px;
+  text-weight: 700;
+  color: green;
+}
+
+li:hover {
+  background: yellow;
+  cursor: pointer;
+}
+
+.x {
+  background: white;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  line-height: 200%;
+}
+
+.o {
+  background: white;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  line-height: 200%;
+}
+
+.winner {
+  background: green;
+  color: white;
+}
+
+.loser {
+  color: red;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
